@@ -2,6 +2,10 @@ $(document).ready(function() {
   initLetItSnow();
 });
 
+document.addEventListener('touchstart', function () {
+    document.getElementsByTagName('audio')[0].play();
+});
+
 // Let Christmas begin! \m/
 var initLetItSnow = function() {
 
